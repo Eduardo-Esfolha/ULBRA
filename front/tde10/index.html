@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+stylesheet
+
+
+
+    <title>Document</title>
+    <style type="text/tailwindcss">
+
+        @layer components {
+
+              @layer base {
+        body {
+            @apply bg-black;
+            font-family: 'Reggae One', cursive;
+        }
+    }
+            body {
+                @apply bg-black;
+            }
+            .card {
+                @apply bg-gray-900 rounded-lg shadow-lg p-6 sm:max-w-sm xl:max-w-7xl sm:mx-auto mt-10; 
+            }
+
+            .habilidades{
+                @apply  gap-10 flex flex-col xl:flex-row;
+            
+            }
+
+            .habilidades img{
+                @apply w-12 ;
+
+            }
+
+        }
+      </style>
+</head>
+
+<body>
+
+    <div class="card ">
+        <article class="flex flex-col xl:flex-row  ">
+
+            <img class="icone" src="/img/yoru-Photoroom.png" alt="">
+            <div class="">
+                <div class="text-center">
+                    <h1 class="text-blue-500 bg-black inline-block px-3 py-1 rounded-lg  font-[Reggae One] text-4xl">Yoru</h1>
+                </div>
+                <div class="flex-col mt-8">
+                    <h2 class="text-blue-500 text-lg"> <i class="fa-solid fa-trophy"></i>Duelista</h2>
+                
+                <p class="text-blue-500 mt-10 mb-30">Yoru é um agente de nacionalidade japonesa e apresenta características bastante
+                    diferentes de outros duelistas. Isso porque suas habilidades podem ser utilizadas tanto para
+                    infiltração quanto para distrações, e até mesmo busca de informações.</p>
+                    </div>
+                 <div class="habilidades">
+    <div class="flex items-center gap-2">
+        <div class="flex flex-col items-center">
+            <img src="/img/imageC.png" alt="">
+            <h1 class="text-white bg-black p-1 rounded-md mt-1">C</h1>
+        </div>
+        <span class="text-white">Ponto Cego</span>
+    </div>
+
+    <div class="flex items-center gap-2">
+        <div class="flex flex-col items-center">
+            <img src="/img/imageE.png" alt="">
+            <h1 class="text-white bg-black p-1 rounded-md mt-1">E</h1>
+        </div>
+        <span class="text-white">Passagem Dimensional</span>
+    </div>
+
+    <div class="flex items-center gap-2">
+        <div class="flex flex-col items-center">
+            <img src="/img/imageQ.png" alt="">
+            <h1 class="text-white bg-black p-1 rounded-md mt-1">Q</h1>
+        </div>
+        <span class="text-white">Distração</span>
+    </div>
+
+    <div class="flex items-center gap-2">
+        <div class="flex flex-col items-center">
+            <img src="/img/imageX.png" alt="">
+            <h1 class="text-white bg-black p-1 rounded-md mt-1">X</h1>
+        </div>
+        <span class="text-white">Espionagem Dimensional</span>
+    </div>
+</div>
+
+               
+
+            </div>
+                
+        </article>
+    </div>
+
+</body>
+
+</html>

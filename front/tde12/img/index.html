@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="PT-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+    <style type="text/tailwindcss">
+
+        @layer components {
+            .insert {
+                @apply flex flex-col gap-2;
+            }
+
+            .dropdown {
+                @apply flex flex-col gap-2 mb-4 mt-4 bg-gray-300 rounded-md;
+            }
+
+            .checkbox {
+                @apply flex flex-row gap-2;
+            }
+
+            .form {
+                @apply flex flex-col justify-center bg-gray-100 max-w-2xl p-10 rounded-md shadow-md;
+            }
+
+            body{
+                @apply flex justify-center bg-blue-100 p-10;
+            }
+            button{
+                @apply bg-blue-500 text-white p-2 rounded-md;
+            }
+
+            .bt{
+                @apply flex ;
+            }
+            
+            #nome{
+                @apply bg-gray-300 p-2 rounded-md ;
+            }
+
+             #email{
+                @apply bg-gray-300 p-2 rounded-md ;
+            }
+
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="form">
+    <form action="" method="">
+        <div class="insert">
+        <label for="nome">nome</label>
+        <input type="text" name="nome" id="nome">
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+        </div>
+
+        <div class="dropdown">
+        <label for="tipo">cidade</label>
+        <select name="tipo" id="tipo">
+        <option value="tipo1">imbé</option>
+        <option value="tipo2">tramandai</option>
+        <option value="tipo3">torres</option>
+        <option value="tipo4">capão da canoa</option>
+        <option value="tipo5">outra</option>
+        </select>
+        </div>
+
+        <div class="checkbox">
+        <label for="onde">Onde você conheceu a gente?</label>
+        <input type="checkbox" name="face" id="face" value="face">
+        <label for="face">facebook</label>
+        <input type="checkbox" name="insta" id="insta" value="insta">
+        <label for="insta">instagram</label>
+        <input type="checkbox" name="twitter" id="twitter" value="twitter">
+        <label for="twitter">twitter</label>
+        <input type="checkbox" name="tiktok" id="tiktok" value="tiktok">
+        <label for="tiktok">tiktok</label>
+        </div>
+
+        <div class="bt">
+        <button type="submit">enviar</button>
+        </div>
+        </div>
+        
+    </form>
+
+</body>
+</html>

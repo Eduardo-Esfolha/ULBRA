@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifólio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <style type="text/tailwindcss">
+
+        @layer components {
+            body{
+                @apply bg-gradient-to-b from-gray-600 to-white min-h-screen;
+            }
+
+            nav{
+                @apply flex flex-col items-center bg-gray-800 text-white py-4 w-80 md:w-200 md:h-50 xl:w-350 xl:h-50 rounded-lg mx-auto mt-5 shadow-xl/60 ;
+            }
+
+            .nav{
+                @apply flex md:space-x-25 space-x-5;
+            }
+
+            nav h1{
+                @apply text-2xl md:text-4xl md:text-5xl font-bold mt-5 mb-5 drop-shadow;
+            }
+
+            li{
+                @apply list-none text-lg md:text-2xl text-green-500 ; 
+            }
+
+            .a {
+                @apply hover:text-gray-300 ;
+            }
+
+            section{
+                @apply flex flex-col justify-center md:justify-start bg-gray-800 text-white mt-5 w-80 h-350 md:w-250 md:h-200 rounded-lg mx-auto shadow-xl/60 p-5;
+            }
+            section h1{
+                @apply text-lg md:text-3xl font-bold mb-5 ;
+            }
+            section h2{
+                @apply text-lg md:text-xl font-semibold mb-3;
+            }
+
+            .eu{
+                @apply text-4xl font-bold text-green-500 mb-3;
+            }
+
+            section img{
+                @apply w-120 h-120 ;
+            }
+
+            .img{
+                @apply flex md:ml-30 mt-10 mb-10 justify-center items-center;
+            }
+
+            .text{
+                @apply flex flex-col mt-30 ml-10 text-white;
+            }
+
+            .follow{
+                @apply flex flex-col md:flex-row items-center mt-5 mb-5 text-white md:space-x-25 gap-5 md:ml-20;
+            }
+
+            .conteudo {
+                @apply flex flex-col md:flex-row;
+            }
+            .follow i {
+                @apply text-4xl hover:text-green-500 border-2 border-green-500 rounded-lg p-2;
+            }
+            .follow h4 {
+                @apply items-center text-xl font-semibold bg-green-500 text-white p-1 rounded-lg;
+            }
+
+            .fa-solid.fa-arrow-left {
+                @apply text-xl hover:text-gray-300;
+            }
+
+            footer {
+                @apply bg-gray-800 py-4 mt-5 w-full text-center text-green-500;
+            }
+
+
+        }
+</style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>meu portifólio</h1>
+            <ul class="nav">
+                <li><a href="/index.html" class="a">home</a></li>
+                <li><a href="/sobre.html" class="a">sobre</a></li>
+                <li><a href="/projetos.html" class="a">projetos</a></li>
+                <li><a href="/contatos.html" class="a">contatos</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="conteudo">
+            <div class="text">
+                <h1>hello i'm</h1>
+                <h2 class="eu">Eduardo Esfolha!!</h2>
+                <h2>sou estudante da ulbra em analise e desenvolvimento de sistemas</h2>
+                <h3>aqui voce saberá mais sobre mim, especialidade, formação e projetos, um pouco sobre minha trajetória
+                    <br> é um prazer te ter aqui.
+                </h3>
+            </div>
+            <div class="img">
+                <img src="/img/IMG_7313[1]-Photoroom.png" alt="">
+            </div>
+        </div>
+
+        <div class="follow">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.github.com/"><i class="fa-brands fa-github"></i></a>
+            <h4><i class="fa-solid fa-arrow-left"></i>follow me</h4>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 Eduardo Esfolha. All rights reserved.</p>
+
+</body>
+
+</html>

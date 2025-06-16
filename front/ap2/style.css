@@ -1,0 +1,17 @@
+nav a {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: #d1d5db; 
+}
+
+.follow i{
+     transition: transform 0.5s ease;
+
+}
+.follow i:hover {
+    transform: rotate(360deg);
+}

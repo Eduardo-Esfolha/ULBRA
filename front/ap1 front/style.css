@@ -1,0 +1,404 @@
+body{
+    font-family: "Raleway Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+  }
+.navbar a{
+text-decoration: none;
+border: solid 3px black; 
+border-radius:40px;
+background-color: black;
+color: grey;
+font-size: 25px;
+padding: 5px;
+}
+
+a:hover{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(64, 64, 64);
+     padding: 8px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.minisobre{
+    display: flex;
+    background-color: grey;
+    font-size: 13px;
+    gap: 150px;
+}
+
+.fotoeu{
+    width: 400px;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    border: 8px solid black;
+    border-radius: 10px;
+
+    
+}
+
+.texto{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 120px;
+}
+
+.miniprojetos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rock Salt", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.miniprojeto {
+    display: inline-flex; /* inline-flex = só o tamanho do conteúdo */
+    flex-direction: row;  /* imagem do lado, textos ao lado */
+    align-items: flex-start;
+    gap: 20px;
+    background-color: grey;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px; /* opcional, só pra separar do resto */
+    border-radius: 10px; /* pra deixar bonitinho */
+    margin-top: 100px;
+    
+}
+
+.miniprojeto a{
+    text-decoration: none;
+    color: black;
+    }
+
+.miniprojeto a:hover{
+    color: white;
+}
+.imgpy{
+    width: 150px;
+    height: auto;
+}
+
+#fogo{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+
+.titulo {
+    border: 1px solid grey;
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    align-self: flex-start; 
+    max-width: fit-content;
+}
+
+.titulo2 {
+    border: 1px solid grey;
+    background-color: rgb(227, 76, 38);
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    align-self: flex-start; 
+    max-width: fit-content;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+table th{
+    font-size: 30px;
+    border-spacing: 40px;
+   
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.table2 th{
+    font-size: 30px;
+    border-spacing: 40px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+table td{
+    font-size: 40px;
+    background-color: rgb(52, 102, 143);
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.table2 td{
+    font-size: 40px;
+    background-color:  rgb(227, 76, 38);
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    color:  rgb(227, 76, 38);
+}
+
+#folder{
+    font-size: 30px;
+}
+
+.miniprojeto2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px 20px 20px auto; 
+    margin-top: 100px;
+}
+.miniprojeto2 a{
+text-decoration: none;
+color: black;
+}
+.miniprojeto2 a:hover{
+    color: white;
+}
+
+.contatos{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rock Salt", cursive;
+  font-weight: 200;
+  font-style: normal;
+  
+}
+
+.contatos2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     margin-left: 15px;
+}
+
+.contatos2 a{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.contatos2 a{
+        text-decoration: none;
+        border: solid 3px black; 
+        border-radius:40px;
+        background-color: black;
+        color: grey;
+        font-size: 25px;
+        padding: 5px;
+        
+}
+.contatoss{
+    background-color: grey;
+
+
+
+}
+
+ul li{
+    list-style-type: disc; 
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    border: solid 1px grey;
+    border-radius: 10px;
+    
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.titulopj{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rock Salt", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+.titulopj i{
+    font-size: 30px;
+}
+
+.titulopj h1{
+    font-size: 50px;
+}
+
+.tbpy{
+    font-size: 30px;
+    border-spacing: 40px;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.imgpj{
+
+
+    width: 150px;
+    height: auto;
+}
+
+.py{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    margin-top: 50px;
+
+}
+
+.imgpy2{
+width: 1000px;
+height: auto;
+margin-top: 50px;
+}
+
+.tablehtml{
+    font-size: 30px;
+    border-spacing: 40px;
+    background-color:  rgb(227, 76, 38);
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.tablehtml th{
+ font-size: 30px;
+    border-spacing: 40px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.tablehtml td{
+    font-size: 40px;
+    background-color: blue;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    color: black
+}
+
+.imgcss{
+    width: 500px;
+    height: auto;
+}
+
+.cop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.contatos2 a:hover{
+    color: white;
+
+}
+
+.sobre2{
+    background-color: grey;
+    border: solid 3px black;
+}
+
+.linhapj{
+        background-color: grey;
+        border: solid 3px black;
+        margin-top: 80px;
+}
+
+.titulopj i{
+margin-bottom: 10px;
+}
+
+.xp th{
+
+}
+
+.tbsb{
+    display: flex;
+    justify-content: center;
+}
+
+.tbsb td{
+    background-color: white
+}
+
+.tbsb th{
+    background-color: grey
+}
+
+.tbsb2{
+    background-color: rgb(64, 64, 64); 
+    padding: 20px; 
+    display: inline-block; 
+    border-radius: 10px; 
+  margin-left: 250px;
+   
+}
+.tbsb{
+    background-color: white; 
+border-radius: 5px;
+
+}
+
+.tbsb3{
+    background-color: rgb(64, 64, 64); 
+    padding: 20px; 
+    display: inline-block; 
+    border-radius: 10px; 
+    margin-left: 70px;
+   
+}

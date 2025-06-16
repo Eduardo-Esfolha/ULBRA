@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <style type="text/tailwindcss">
+
+        @layer components {
+            body{
+                @apply bg-gradient-to-b from-gray-600 to-white min-h-screen;
+            }
+
+          nav{
+                @apply flex flex-col items-center bg-gray-800 text-white py-4 w-80 md:w-200 md:h-50 xl:w-350 xl:h-50 rounded-lg mx-auto mt-5 shadow-xl/60 ;
+            }
+
+            .nav{
+                @apply flex md:space-x-25 space-x-5;
+            }
+
+            nav h1{
+                @apply text-2xl md:text-4xl md:text-5xl font-bold mt-5 mb-5 drop-shadow;
+            }
+
+            li{
+                @apply list-none text-lg md:text-2xl text-green-500 ; 
+            }
+
+            .a {
+                @apply hover:text-gray-300 ;
+            }
+            section{
+                @apply flex flex-col items-start bg-gray-800 text-white mt-5 w-90 md:w-250 md:h-300 h-400 rounded-lg mx-auto shadow-xl/60 p-5;
+
+            }
+            section .conteudo{
+                @apply flex flex-col md:flex-row items-center md:items-start;
+            }
+            section img{
+                @apply w-80 h-100 md:w-120 md:h-200 md:mt-10 ;
+            }
+            .text{
+                @apply flex flex-col ml-5 mt-10;
+            }
+
+             footer {
+                @apply bg-gray-800 py-4 mt-5 w-full text-center text-green-500;
+            }
+
+            section h1{
+                @apply text-4xl font-bold mb-5 ;
+            }
+            section h2{
+                @apply text-2xl mb-5 text-green-500;
+            }
+            .dados{
+                @apply  mt-5;
+            }
+            .dados p{
+                @apply mb-2 text-green-500 text-xl;
+            }
+            .dados h2{
+                @apply text-2xl font-bold text-white mb-3;
+            }
+            .logo{
+                @apply w-10 h-10 mr-2;
+            }
+
+            .especialidade{
+                @apply flex flex-col  mt-5;
+            }
+
+            .logos{
+                @apply flex flex-row   space-x-10;
+            }
+            .logoconteudo{
+                @apply flex flex-col items-center mb-5;
+            }
+
+        }
+        </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>meu portifólio</h1>
+            <ul class="nav">
+                <li><a href="/index.html" class="a">home</a></li>
+                <li><a href="/sobre.html" class="a">sobre</a></li>
+                <li><a href="/projetos.html" class="a">projetos</a></li>
+                <li><a href="/contatos.html" class="a">contatos</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="conteudo">
+        <img src="/img/IMG_7309[1]-Photoroom.png"  alt="">
+        <div class="text">
+            <h1>Sobre Mim</h1>
+            <h2>Olá, meu nome é Eduardo Esfolha, estou cursando analise e desenvolvimento de sistemas, e sou formado em tecnico de informática. <br> Estou sempre em busca de novos conhecimentos e desafios na área de tecnologia.</h2>
+               <div class="dados">
+            <h2>dados pessoais</h2>
+            <p>Idade: 25 anos</p>
+            <p>Localização: imbé, rs</p>
+            <p>Sexo: Masculino</p>
+            <p>Hobbies: futevôlei, jogos, música</p>
+        </div>
+        <div class="formacao dados">
+            <h2>Formação</h2>
+            <p>Ensino Médio Completo</p>
+            <p>Técnico em Informática</p>
+            <p>Inglês básico foco em leitura</p>
+        </div>
+        <div class="especialidade dados">
+            <h2>Especialidades</h2>
+            <div class="logos">
+            <div class="logoconteudo">
+            <img class="logo" src="/img/css-3-Photoroom.png" alt="">
+            <p>css</p>
+            </div>
+            <div class="logoconteudo">
+            <img class="logo" src="/img/tai-Photoroom.png" alt="">
+            <p>tailwind</p>
+            </div>
+            <div class="logoconteudo">
+            <img class="logo" src="/img/html-5-Photoroom.png" alt="">
+            <p>html</p>
+            </div>
+            <div class="logoconteudo">
+            <img class="logo" src="/img/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn-Photoroom.png" alt="">
+            <p>python</p>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+     
+    </section>
+
+     <footer>
+        <p>© 2023 Eduardo Esfolha. All rights reserved.</p>
+    
+</body>
+</html>
+
+

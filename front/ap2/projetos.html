@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <style type="text/tailwindcss">
+
+        @layer components {
+            body{
+                @apply bg-gradient-to-b from-gray-600 to-white min-h-screen;
+            }
+
+            nav{
+                @apply flex flex-col items-center bg-gray-800 text-white py-4 w-80 md:w-200 md:h-50 xl:w-350 xl:h-50 rounded-lg mx-auto mt-5 shadow-xl/60 ;
+            }
+
+            .nav{
+                @apply flex md:space-x-25 space-x-5;
+            }
+
+            nav h1{
+                @apply text-2xl md:text-4xl md:text-5xl font-bold mt-5 mb-5 drop-shadow;
+            }
+
+            li{
+                @apply list-none text-lg md:text-2xl text-green-500 ; 
+            }
+
+            .a {
+                @apply hover:text-gray-300 ;
+            }
+            .titulo{
+                @apply text-4xl font-bold border-4 border-green-500 p-4 inline-block mx-auto text-center text-white rounded-lg bg-gray-800;
+            }
+            .titulo2{
+                @apply flex justify-center items-center mt-10 mb-5;
+            }
+
+            section{
+                @apply flex flex-col items-start ;
+            }
+            .projeto1{
+                @apply mt-10 md:ml-15 rounded-xl md:w-120 md:h-130 bg-gray-800 text-white shadow-xl/60 p-5;
+            }
+            .projeto2{
+                @apply mt-10 md:ml-15 rounded-xl md:w-120 md:h-180 bg-gray-800 text-white shadow-xl/60 p-5;
+            }
+            .projeto1 h1{
+                @apply text-2xl font-bold mb-2;
+            }
+            .projeto1 p{
+                @apply text-lg text-green-500;
+
+            }
+            .projeto2 img{
+                @apply w-100 h-100 rounded-lg mt-5;
+                
+            }
+            .logos{
+                @apply flex space-x-15 mt-5;
+            }
+            .logos img{
+                @apply w-15 h-15 rounded-lg;
+            }
+            footer {
+                @apply bg-gray-800 py-4 mt-5 w-full text-center text-green-500;
+            }
+
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>meu portifólio</h1>
+            <ul class="nav">
+                <li><a href="/index.html" class="a">home</a></li>
+                <li><a href="/sobre.html" class="a">sobre</a></li>
+                <li><a href="/projetos.html" class="a">projetos</a></li>
+                <li><a href="/contatos.html" class="a">contatos</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div class="titulo2">
+    <h1 class="titulo">meus projetos</h1>
+    </div>
+    <section>
+        <div class="projeto1">
+            <h1>Projeto 1</h1>
+            <p>um card de um personagem de valorant, usando html e tailwind</p>
+            <img src="/img/yoru.png" alt="">
+            <div class="logos">
+                <img src="/img/html-5-Photoroom.png" alt="">
+                <img src="/img/tai-Photoroom.png" alt="">
+
+            </div>
+            
+        </div>
+        <div class="projeto1 projeto2">
+            <h1>Projeto 2</h1>
+            <p>um sistema em python que descobre a afinidade da pessoa com alguma area de dev</p>
+            <img class="yoru" src="/img/codigo.png" alt="">
+             <div class="logos">
+                <img src="/img/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn-Photoroom.png" alt="">
+                <img src="/img/tai-Photoroom.png" alt="">
+
+            </div>
+        </div>
+           
+
+    </section>
+
+     <footer>
+        <p>© 2023 Eduardo Esfolha. All rights reserved.</p>
+
+    </footer>
+</body>
+</html>

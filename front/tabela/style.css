@@ -1,0 +1,109 @@
+table{
+    width: 1142;
+    background-color: #ffffff;
+    border-radius: 12;
+ box-shadow: 0px 15px 20px -10px #000000;
+ padding: 12px;
+ border-collapse: collapse;
+}
+ .coluna{
+padding: 12px;
+background-color: grey;
+Direction: Horizontal;
+
+}
+
+#column1{
+width: 187px;
+}
+
+
+#column2{
+width: 135px;
+}
+
+#column3{
+width: 84px;
+}
+
+#column4{
+width: 135px;
+}
+
+#column5{
+width: 135px;
+}
+
+#column6{
+    width: 135px;
+
+}
+
+#column7{
+width: 242px;
+}
+
+#column8{
+    width: 85px;
+}
+
+.avatar{
+    width: 32px;
+    height: auto;
+
+
+}
+
+.icon{
+    width: 16px;
+    height: auto;
+}
+
+table#tabela td{
+    padding: 10px;
+    text-align: center;
+}
+
+
+td {
+    padding: 12px; 
+    border-bottom: 1px solid #e5e7eb; 
+    vertical-align: middle; 
+    white-space: nowrap; 
+    overflow: hidden; 
+}
+.ponto {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+
+  .offline{
+    background-color: red;
+  }
+
+  .online{
+    background-color: green;
+  }
+
+  .pontotexto {
+    display: flex;
+    align-items: center;
+  }
+
+  .linha{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 25px;
+    
+  }
+
+  .border{
+    border: 1px solid grey;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }

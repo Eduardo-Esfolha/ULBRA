@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer components {
+      body {
+        @apply bg-gray-300 p-6;
+      }
+
+      .form{
+        @apply bg-blue-800 text-white flex-col justify-center items-center p-4 rounded-lg shadow-lg;
+      }
+        .input {
+            @apply flex flex-col gap-2 mb-4 mt-4 text-gray-800;
+        }
+        .btngreen {
+            @apply bg-green-500 text-white p-2 rounded hover:bg-green-600;
+        }
+        .btnred {
+            @apply bg-red-500 text-white p-2 rounded hover:bg-red-600;
+        }
+        .tabela {
+            @apply mt-4;
+        }
+        h1{
+            @apply text-2xl font-bold mb-4 text-center;
+        }
+
+        table {
+            @apply w-full bg-white rounded-lg shadow-md ;
+        }
+
+        th, td {
+            @apply p-2 text-left border-b border-gray-200;
+        }
+        .tabelaok {
+            @apply mt-20;
+        }
+
+         table{
+            @apply w-full bg-white rounded-lg shadow-md;
+
+        }
+        
+        .label {
+            @apply text-lg font-semibold mb-2 mt-20;
+        }
+    }
+</style>
+
+
+
+</head>
+
+<body>
+    <div class="form">
+        <h1>lista de exercicios</h1>
+        <button class="btngreen" type="button" onclick="verform()">clique aqui para adicionar um novo exercicio</button>
+        <form id="form" style="display: none;">
+            <label class="label" for="">novo exercicio</label>
+            <div class="input">
+                <input id="nome" type="text" placeholder="digite o nome do exercicio">
+                <input id="serie" type="number" placeholder="digite o numero de series">
+                <input id="rept" type="number" placeholder="digite o numero de repetições">
+            </div>
+            <button class="btngreen" type="submit">adicionar exercicio</button>
+            <button class="btnred" type="button" onclick="naover()">cancelar adição</button>
+    </div>
+    </form>
+
+
+    <div class="tabela">
+        <h1>tabela de exercicio</h1>
+        <table id="tabela">
+            <tr>
+                <th>nome</th>
+                <th>series</th>
+                <th>repetições</th>
+                <th>concluir</th>
+                <th>remover</th>
+        </table>
+    </div>
+
+    <div class="tabelaok">
+        <h1>tabela de exercicios concluídos</h1>
+        <table id="tabelaok">
+            <tr>
+                <th>nome</th>
+                <th>series</th>
+                <th>repetições</th>
+        </table>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

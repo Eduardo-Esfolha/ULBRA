@@ -1,0 +1,14 @@
+C:\Users\dudue\tipos\bin\Debug\net9.0\tipos.exe
+C:\Users\dudue\tipos\bin\Debug\net9.0\tipos.deps.json
+C:\Users\dudue\tipos\bin\Debug\net9.0\tipos.runtimeconfig.json
+C:\Users\dudue\tipos\bin\Debug\net9.0\tipos.dll
+C:\Users\dudue\tipos\bin\Debug\net9.0\tipos.pdb
+C:\Users\dudue\tipos\obj\Debug\net9.0\tipos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dudue\tipos\obj\Debug\net9.0\tipos.AssemblyInfoInputs.cache
+C:\Users\dudue\tipos\obj\Debug\net9.0\tipos.AssemblyInfo.cs
+C:\Users\dudue\tipos\obj\Debug\net9.0\tipos.csproj.CoreCompileInputs.cache
+C:\Users\dudue\tipos\obj\Debug\net9.0\tipos.dll
+C:\Users\dudue\tipos\obj\Debug\net9.0\refint\tipos.dll
+C:\Users\dudue\tipos\obj\Debug\net9.0\tipos.pdb
+C:\Users\dudue\tipos\obj\Debug\net9.0\tipos.genruntimeconfig.cache
+C:\Users\dudue\tipos\obj\Debug\net9.0\ref\tipos.dll

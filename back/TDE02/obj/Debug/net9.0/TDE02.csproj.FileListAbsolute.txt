@@ -1,0 +1,14 @@
+C:\Users\dudue\TDE02\bin\Debug\net9.0\TDE02.exe
+C:\Users\dudue\TDE02\bin\Debug\net9.0\TDE02.deps.json
+C:\Users\dudue\TDE02\bin\Debug\net9.0\TDE02.runtimeconfig.json
+C:\Users\dudue\TDE02\bin\Debug\net9.0\TDE02.dll
+C:\Users\dudue\TDE02\bin\Debug\net9.0\TDE02.pdb
+C:\Users\dudue\TDE02\obj\Debug\net9.0\TDE02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dudue\TDE02\obj\Debug\net9.0\TDE02.AssemblyInfoInputs.cache
+C:\Users\dudue\TDE02\obj\Debug\net9.0\TDE02.AssemblyInfo.cs
+C:\Users\dudue\TDE02\obj\Debug\net9.0\TDE02.csproj.CoreCompileInputs.cache
+C:\Users\dudue\TDE02\obj\Debug\net9.0\TDE02.dll
+C:\Users\dudue\TDE02\obj\Debug\net9.0\refint\TDE02.dll
+C:\Users\dudue\TDE02\obj\Debug\net9.0\TDE02.pdb
+C:\Users\dudue\TDE02\obj\Debug\net9.0\TDE02.genruntimeconfig.cache
+C:\Users\dudue\TDE02\obj\Debug\net9.0\ref\TDE02.dll

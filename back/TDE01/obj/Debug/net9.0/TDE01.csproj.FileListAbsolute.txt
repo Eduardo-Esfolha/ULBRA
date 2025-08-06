@@ -1,0 +1,14 @@
+C:\Users\dudue\TDE01\bin\Debug\net9.0\TDE01.exe
+C:\Users\dudue\TDE01\bin\Debug\net9.0\TDE01.deps.json
+C:\Users\dudue\TDE01\bin\Debug\net9.0\TDE01.runtimeconfig.json
+C:\Users\dudue\TDE01\bin\Debug\net9.0\TDE01.dll
+C:\Users\dudue\TDE01\bin\Debug\net9.0\TDE01.pdb
+C:\Users\dudue\TDE01\obj\Debug\net9.0\TDE01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dudue\TDE01\obj\Debug\net9.0\TDE01.AssemblyInfoInputs.cache
+C:\Users\dudue\TDE01\obj\Debug\net9.0\TDE01.AssemblyInfo.cs
+C:\Users\dudue\TDE01\obj\Debug\net9.0\TDE01.csproj.CoreCompileInputs.cache
+C:\Users\dudue\TDE01\obj\Debug\net9.0\TDE01.dll
+C:\Users\dudue\TDE01\obj\Debug\net9.0\refint\TDE01.dll
+C:\Users\dudue\TDE01\obj\Debug\net9.0\TDE01.pdb
+C:\Users\dudue\TDE01\obj\Debug\net9.0\TDE01.genruntimeconfig.cache
+C:\Users\dudue\TDE01\obj\Debug\net9.0\ref\TDE01.dll

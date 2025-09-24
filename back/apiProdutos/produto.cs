@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace apiProdutos;
 
-public class produtos
+public class produto
 {
     [Key]
     public int ID { get; set; }

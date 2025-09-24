@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dudue\\TDE02\\TDE02.csproj": {}
+    "C:\\Users\\dudue\\Documents\\ULBRA\\back\\TDE02\\TDE02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dudue\\TDE02\\TDE02.csproj": {
+    "C:\\Users\\dudue\\Documents\\ULBRA\\back\\TDE02\\TDE02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dudue\\TDE02\\TDE02.csproj",
+        "projectUniqueName": "C:\\Users\\dudue\\Documents\\ULBRA\\back\\TDE02\\TDE02.csproj",
         "projectName": "TDE02",
-        "projectPath": "C:\\Users\\dudue\\TDE02\\TDE02.csproj",
+        "projectPath": "C:\\Users\\dudue\\Documents\\ULBRA\\back\\TDE02\\TDE02.csproj",
         "packagesPath": "C:\\Users\\dudue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dudue\\TDE02\\obj\\",
+        "outputPath": "C:\\Users\\dudue\\Documents\\ULBRA\\back\\TDE02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dudue\\AppData\\Roaming\\NuGet\\NuGet.Config"
